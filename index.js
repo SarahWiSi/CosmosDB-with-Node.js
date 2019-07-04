@@ -10,8 +10,8 @@ const app = express()
 
 app.get('/', async (req, res) => {
     // Configure database access URI and primary key - zu finden unter keys
-    const endpoint = "https://dh181814-test-db.documents.azure.com:443/";
-    const authKey = "x9FhexFFfkcPe5R2BZQvDlRm4bdAH4TRcpM2SAIokPcQ2pj0l2QuJgAUsKD2GuOGWTIxWUfV7gWJ2xVNdHwHtQ==";
+    const endpoint = "https://<...>.documents.azure.com:443/";
+    const authKey = "<..>";
     
     // Database and container IDs - den Namen der Datenbank und des Containers eintragen
     const databaseId = "ToDoList";
